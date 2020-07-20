@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Deutsch",
+    "enable": 1,
+    "code": "de",
+    "translation": "de_DE",
+    "locale": "de_DE",
+    "flag": "de.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "English",
+    "enable": 1,
+    "code": "en",
+    "translation": "en_US",
+    "locale": "en_US",
+    "flag": "gb.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "中文",
+    "enable": 1,
+    "code": "zh",
+    "translation": "zh_CN",
+    "locale": "zh_CN",
+    "flag": "cn.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Рус",
+    "enable": 1,
+    "code": "ru",
+    "translation": "ru_RU",
+    "locale": "ru_RU",
+    "flag": "ru.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "suomi",
+    "enable": 1,
+    "code": "fi",
+    "translation": "fi",
+    "locale": "fi",
+    "flag": "fi.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Français",
+    "enable": 1,
+    "code": "fr",
+    "translation": "fr_FR",
+    "locale": "fr_FR",
+    "flag": "fr.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Nederlands",
+    "enable": 1,
+    "code": "nl",
+    "translation": "nl_NL",
+    "locale": "nl_NL",
+    "flag": "nl.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Svenska",
+    "enable": 1,
+    "code": "sv",
+    "translation": "sv_SE",
+    "locale": "sv_SE",
+    "flag": "se.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Italiano",
+    "enable": 1,
+    "code": "it",
+    "translation": "it_IT",
+    "locale": "it_IT",
+    "flag": "it.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Română",
+    "enable": 1,
+    "code": "ro",
+    "translation": "ro_RO",
+    "locale": "ro_RO",
+    "flag": "ro.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Moldovenească",
+    "enable": 1,
+    "code": "md",
+    "translation": "ro_RO",
+    "locale": "ro_RO",
+    "flag": "md.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Magyar",
+    "enable": 1,
+    "code": "hu",
+    "translation": "hu_HU",
+    "locale": "hu_HU",
+    "flag": "hu.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "日本語",
+    "enable": 1,
+    "code": "ja",
+    "translation": "ja",
+    "locale": "ja",
+    "flag": "jp.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Español",
+    "enable": 1,
+    "code": "es",
+    "translation": "es_ES",
+    "locale": "es_ES",
+    "flag": "es.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Tiếng Việt",
+    "enable": 1,
+    "code": "vi",
+    "translation": "vi",
+    "locale": "vi",
+    "flag": "vn.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "العربية",
+    "enable": 1,
+    "code": "ar",
+    "translation": "ar",
+    "locale": "ar",
+    "flag": "arle.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Português",
+    "enable": 1,
+    "code": "pt",
+    "translation": "pt_PT",
+    "locale": "pt_PT",
+    "flag": "pt.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Português do Brasil",
+    "enable": 1,
+    "code": "pb",
+    "translation": "pt_BR",
+    "locale": "pt_BR",
+    "flag": "br.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Polski",
+    "enable": 1,
+    "code": "pl",
+    "translation": "pl_PL",
+    "locale": "pl_PL",
+    "flag": "pl.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "galego",
+    "enable": 1,
+    "code": "gl",
+    "translation": "gl_ES",
+    "locale": "gl_ES",
+    "flag": "galego.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Turkish",
+    "enable": 1,
+    "code": "tr",
+    "translation": "tr_TR",
+    "locale": "tr_TR",
+    "flag": "tr.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Eesti",
+    "enable": 1,
+    "code": "et",
+    "translation": "et",
+    "locale": "et",
+    "flag": "ee.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Hrvatski",
+    "enable": 1,
+    "code": "hr",
+    "translation": "hr",
+    "locale": "hr",
+    "flag": "hr.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Euskera",
+    "enable": 1,
+    "code": "eu",
+    "translation": "eu",
+    "locale": "eu",
+    "flag": "eu_ES.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Ελληνικά",
+    "enable": 1,
+    "code": "el",
+    "translation": "el",
+    "locale": "el",
+    "flag": "gr.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Українська",
+    "enable": 1,
+    "code": "ua",
+    "translation": "uk_UA",
+    "locale": "uk_UA",
+    "flag": "ua.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Cymraeg",
+    "enable": 1,
+    "code": "cy",
+    "translation": "cy",
+    "locale": "cy",
+    "flag": "cy_GB.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Català",
+    "enable": 1,
+    "code": "ca",
+    "translation": "ca",
+    "locale": "ca",
+    "flag": "catala.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Slovenčina",
+    "enable": 1,
+    "code": "sk",
+    "translation": "sk_SK",
+    "locale": "sk_SK",
+    "flag": "sk.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Lietuvių",
+    "enable": 1,
+    "code": "lt",
+    "translation": "lt_LT",
+    "locale": "lt_LT",
+    "flag": "lt.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Қазақ тілі",
+    "enable": 1,
+    "code": "kk",
+    "translation": "kk",
+    "locale": "kk",
+    "flag": "kz.png",
+    "date": "",
+    "time": ""
+  },
+  {
+    "name": "Čeština",
+    "enable": 1,
+    "code": "cs",
+    "translation": "cs_CZ",
+    "locale": "cs_CZ",
+    "flag": "cz.png",
+    "date": "",
+    "time": ""
+  }
+]

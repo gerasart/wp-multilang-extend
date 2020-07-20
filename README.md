@@ -1,2 +1,5 @@
-# wp-multilang-extend
-wpMultilangExtend
+composer update
+
+npm install
+
+npm run build:local
