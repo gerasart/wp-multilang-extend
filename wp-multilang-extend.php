@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Multilang Extend
- * Version: 3.1
+ * Version: 3.1.0
  * Plugin URI: https://cs50.com.ua/resheniya/wordpress-plugins/multilang-extend
  * Description: developer plugin.
  * Author: Gerasart
