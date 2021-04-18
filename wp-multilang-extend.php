@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Multilang Extend
- * Version: 3.0
+ * Version: 3.1
  * Plugin URI: https://cs50.com.ua/resheniya/wordpress-plugins/multilang-extend
  * Description: developer plugin.
  * Author: Gerasart
@@ -30,8 +30,8 @@ class MultilangExtend {
     }
 
     private static function cc_autoload() {
-
 	    $namespaces = self::getDefinedNamespaces();
+
         foreach ($namespaces as $namespace => $path) {
 
 	        $clear = substr($namespace, 0, strlen($namespace) - 1);
@@ -50,11 +50,9 @@ class MultilangExtend {
     private static function getDefinedNamespaces()
     {
         $composerJsonPath = dirname( __FILE__ ) . '/composer.json';
-
 	    $composerConfig = json_decode(file_get_contents($composerJsonPath));
-
-        //Apparently PHP doesn't like hyphens, so we use variable variables instead.
         $psr4 = "psr-4";
+
         return (array) $composerConfig->autoload->$psr4;
     }
 }
@@ -62,7 +60,6 @@ class MultilangExtend {
 new MultilangExtend();
 
 /** @class github updater */
-
 //require 'vendor/updater/plugin-update-checker.php';
 //$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker('https://github.com/gerasart/developer-helper/',__FILE__,'developer-helper');
 //$myUpdateChecker->setAuthentication('a283aeca2b507dd9d43b8e5b0cf8f6a3e8be50ad');

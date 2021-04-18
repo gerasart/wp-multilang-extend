@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 /**
  * Created by PhpStorm.
  * User: gerasart
@@ -9,36 +10,46 @@
 namespace WplExtend;
 
 
-class LangFilters {
-
-    public function __construct() {
+class LangFilters
+{
+    public function __construct()
+    {
         self::adjacentLangSettingFilter();
     }
-
-    public static function adjacentLangSettingFilter() {
-        $adjacents = [ 'next', 'previous' ];
-        foreach ( $adjacents as $adjacent ) {
-            add_filter( "get_{$adjacent}_post_join", [ __CLASS__, 'adjacentJoinByLanguage' ] );
-            add_filter( "get_{$adjacent}_post_where", [ __CLASS__, 'adjacentWhereByLanguage' ] );
+    
+    public static function adjacentLangSettingFilter(): void
+    {
+        $adjacents = ['next', 'previous'];
+        foreach ($adjacents as $adjacent) {
+            add_filter("get_{$adjacent}_post_join", [__CLASS__, 'adjacentJoinByLanguage']);
+            add_filter("get_{$adjacent}_post_where", [__CLASS__, 'adjacentWhereByLanguage']);
         }
     }
-
-    public static function adjacentJoinByLanguage( $join ) {
+    
+    /**
+     * @param $join
+     *
+     * @return string
+     */
+    public static function adjacentJoinByLanguage($join)
+    {
         $langQuery = self::getLangMetaQuery();
-
-        return $join . $langQuery['join'];
+        
+        return $join.$langQuery['join'];
     }
-
-    public static function adjacentWhereByLanguage( $where ) {
+    
+    public static function adjacentWhereByLanguage($where)
+    {
         $langQuery = self::getLangMetaQuery();
-
-        return $where . $langQuery['where'];
+        
+        return $where.$langQuery['where'];
     }
-
-    public static function getLangMetaQuery() {
+    
+    public static function getLangMetaQuery()
+    {
         global $wpdb;
         $lang = wpm_get_language();
-
+        
         $lang_meta_query = array(
             array(
                 'relation' => 'OR',
@@ -48,15 +59,14 @@ class LangFilters {
                 ),
                 array(
                     'key'     => '_languages',
-                    'value'   => serialize( $lang ),
+                    'value'   => serialize($lang),
                     'compare' => 'LIKE',
                 ),
             ),
         );
-
-        $mq = new \WP_Meta_Query( $lang_meta_query );
-
-//      return $mq->get_sql('post', $wpdb->posts . ' as p', 'ID');
-        return $mq->get_sql( 'post', 'p', 'ID' );
+        
+        $mq = new \WP_Meta_Query($lang_meta_query);
+        
+        return $mq->get_sql('post', 'p', 'ID');
     }
 }
